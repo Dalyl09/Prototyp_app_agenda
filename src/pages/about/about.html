@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Agenda synchronisable</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/a.jpg" alt="ionic logo">
+  </div>
+  <div padding class="about-info">
+    <h4>Agenda synchronisable avec vos collegues</h4>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-icon name="calendar" item-left></ion-icon>
+        <ion-label>Date</ion-label>
+        <ion-datetime displayFormat="MMM DD, YYYY" max="2020" [(ngModel)]="conferenceDate"></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="pin" item-left></ion-icon>
+        <ion-label>Lieu</ion-label>
+        <ion-select>
+          <ion-option value="madison" selected>Paris</ion-option>
+          <ion-option value="austin">Bruxelles</ion-option>
+          <ion-option value="chicago">Lille</ion-option>
+          <ion-option value="seattle">Valenciennes</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <p>
+      Dans cette onglet, vous pourrez synchroniser votre agenda avec vos collegues. Vous pourrez y mettre en vocal ainsi que par ecrit.
+    </p>
+  </div>
+</ion-content>

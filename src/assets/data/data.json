@@ -1,0 +1,107 @@
+{
+
+  "schedule": [{
+    "date": "2017-03-17",
+    "groups": [{
+      "time": "17 mars 2017 ",
+      "sessions": [{
+        "name": "David de chez Total",
+        "timeStart": "08:00",
+        "timeEnd": "09:00",
+        "location": "Valenciennes",
+        "description": "David de chez Total.",
+        "tracks": ["Total"]
+      }]
+    },{
+      "time": "18 mars 2017",
+      "sessions": [{
+        "name": "Juliette Arlom d'Areva",
+        "location": " 22 rue de la réussite.",
+        "description": "Ne pas oublier de lui rendre le rapport d'Areva",
+        "speakerNames": ["Karl Kitten", "Lionel Lion"],
+        "timeStart": "08:00",
+        "timeEnd": "09:45",
+        "tracks": ["Areva"]
+      },{
+        "name": "Yao de EDF",
+        "location": "Conference Accor Hotel",
+        "description": "Conference entre les membres d'EDF de chez Total.",
+        "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
+        "timeStart": "11:30 ",
+        "timeEnd": "12:00 ",
+        "tracks": ["EDF"]
+      }]
+    },{
+      "time": "22 mars 2017",
+      "sessions": [{
+        "name": "Bertrand d'Accor Hotel",
+        "location": "Calais",
+        "description": "Ne pas oublier de rendre le compte rendu",
+        "speakerNames": ["Ted Turtle"],
+        "timeStart": "10:00",
+        "timeEnd": "12:30",
+        "tracks": ["Accor"]
+      }, {
+        "name": "Alisson de Century 21",
+        "location": "Boulogne-Sur-Mer",
+        "description": "Alisson Ariole, transmettre documents.",
+        "speakerNames": ["Rachel Rabbit"],
+        "timeStart": "15:45",
+        "timeEnd": "16:30",
+        "tracks": ["Century 21"]
+      }]
+    }]
+  }],
+
+
+  "speakers": [{
+    "name": "Total",
+    "profilePic": "assets/img/speakers/bear.jpg",
+    "twitter": "total",
+    "about": "David",
+    "location": "Valenciennes",
+    "email": "burt@example.com",
+    "phone": "06520000000"
+  }, {
+    "name": "Areva",
+    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "twitter": "areva",
+    "about": "Juliette Arlom",
+    "location": "Lille",
+    "email": "Juliette@example.com",
+    "phone": "06520000000"
+  }, {
+    "name": "EDF",
+    "profilePic": "assets/img/speakers/duck.jpg",
+    "twitter": "edf",
+    "about": "Yao Ming",
+    "location": "Everywhere",
+    "email": "donald@example.com",
+    "phone": "0652000000"
+  },{
+    "name": "Century 21",
+    "profilePic": "assets/img/speakers/turtle.jpg",
+    "twitter": "ionicframework",
+    "about": "Alisson Ariole.",
+    "location": "Strasbourg",
+    "email": "yasmina@example.com",
+    "phone": "065200000000"
+  }],
+
+
+  "map": [{
+    "name": "Yao d'EDF",
+    "lat": 50.6333,
+    "lng": 3.0667,
+    "center": true
+  }, {
+    "name": "Juliette Arlom Areva",
+    "lat": 50.9581,
+    "lng": 1.8521
+  }, {
+    "name": "David de Total",
+    "lat": 50.35,
+    "lng": 3.5333
+  }]
+
+}
